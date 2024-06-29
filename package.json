@@ -1,0 +1,22 @@
+{
+    "name": "todo-demo-svelte",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier --write --ignore-unknown ."
+    },
+    "dependencies": {
+        "@sveltejs/vite-plugin-svelte": "^4.0.0-next.3",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "prettier": "^3.3.2",
+        "prettier-plugin-svelte": "^3.2.5",
+        "svelte": "^5.0.0-next.166",
+        "tailwindcss": "^3.4.4",
+        "vite": "^5.3.1"
+    }
+}
